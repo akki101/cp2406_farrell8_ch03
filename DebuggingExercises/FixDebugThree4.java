@@ -11,7 +11,7 @@ public class FixDebugThree4
       System.out.println("Your tuition:");
       tuitionBill(yourCredits, rate);
    }
-   public static void tuitionBill(int c, double r)
+   private static void tuitionBill(int c, double r)
    {
       System.out.println("Total due " + (r*c));
    }
